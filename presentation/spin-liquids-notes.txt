@@ -1,0 +1,356 @@
+--- Slide 0 ---
+
+Altermagnets and spin liquids From neighboring and altermagnetic spin liquids to
+spin-symmetric band splitting Hauptseminar talk by Jonas Scheunemann 1) Sobrata,
+Mandel, Scheurer, 2024 Supervisors: Prof. Scheurer & MSc. Putzer 1) Good
+afternoon. I'm Jonas, and I'll close today's seminar with a question that none
+of the previous talks have addressed directly: what happens to an altermagnet
+when its spin order is destroyed by quantum fluctuations? The answer involves
+spin liquids, fractionalized excitations, and a new phase we'll call the
+altermagnetic spin liquid. Jonas 2026-05-16T19:15:29.577000000 - write down time
+for each slide - practice not exceeding that time per slide ! - make one
+transition sentence pre slide From Altermagnets to Spin Liquids We now know a
+lot about ordered altermagnets (P1-P11) ARPES magnons topology in band What
+happens when frustration + quantum fluctuations destroy spin order? Does
+altermagnetic character survive in a phase with no spin order? <number> Zeitsoll
+am Ende: ~ 2 min — — — — — — — Today's talks covered a lot of ground on ordered
+altermagnets — band splitting, ARPES measurements, magnon spectra, topology in
+the band structure. All of that physics assumed the spins are ordered,
+especially long-ranged: there is a well-defined spin texture that breaks time-
+reversal symmetry in a specific way. I want to go to the adjacent regime. Take
+that same altermagnetic system, but now make the frustrated couplings strong —
+strong enough that quantum fluctuations prevent the spins from ever settling
+into a static pattern. The spin order melts. And now the question becomes: does
+anything altermagnetic survive in that disordered phase?That is the question
+this paper answers. And the answer is yes — but the way it survives is subtle
+and requires new language. Let me build that language for you. → "To make this
+concrete, we need a model that is an altermagnet and, at the same time, can be
+strongly frustrated. Here it is." Jonas 2026-05-16T19:11:26.800000000 Plot
+abändern, links ok, rechts arsch RVB besser darstellen ODER rvb aus review
+paper? Jonas 2026-05-17T16:03:17.828000000 font + größe bei allen Folien
+angleichn 1 total reaction Jonas reacted with ✔️ at 2026-05-17 16:03 PM Jonas
+2026-05-17T01:18:38.220000000 why does altermagnet have a broken symmetry??
+Jonas 2026-05-17T01:19:00.578000000 short explanational sentence to each example
+The Model <number> Two sublattices A/B related by C4​, not translation →
+altermagnetic symmetry J2 and K introduce frustration and competing orders
+Folienende Zeitsoll kumuliert: ~ 5 min Für diese Folie: ~ 2min — — — — — — — The
+model is a checkerboard Heisenberg magnet with three couplings. J₁ > 0 is
+antiferromagnetic connection between nearest-neighbor bonds. J₂ couples next-
+nearest-neighbor bonds and introduces frustration. K is a ring-exchange term
+that competes with collinear order and, crucially, stabilizes a noncoplanar
+phase. The key symmetry point, that i think we heard often enough now, so ill
+make it quick: the two sublattices A and B are related by a fourfold rotation
+C₄z, not by a lattice translation. This is exactly the altermagnetic symmetry.
+With only J₁, the model has an artificial translation symmetry between A and B.
+Adding J₂ and K breaks that translation, leaving only C₄z - and that is what
+makes the ground state an altermagnet rather than a conventional AFM. Now the
+following calculations are not limited to this model, its just one explicit
+example. → To find the connections to the quantum spin liquid, our next step is
+to first find different phases established by different sets of parameters J1,J2
+and K Classical Phase Diagram <number> Folienende Zeitsoll kumuliert: ~ 6 min
+Für diese Folie: ~ 1min — — — — — — — Here we see this phase diagram for
+different (J2, K) values. Now we get these by minimization of the energy for
+each of these points. For that we make a classical Spinansatz. Classical limit
+(S → ∞): spins are classical vectors, no quantum fluctuations. This Ansatz has
+three parameters over which we will create a grid and then find the minimum by
+applying the gradient descent algorithm. We repeat that for each point of the
+J2,K parameter space and by looking at the parameters in our spinansatz we will
+find these classical spin textures Scalar spin chiralities → T symmetry
+Observables NN scalar products on a plaquette → C4 symmetry <number> Folienende
+Zeitsoll kumuliert: ~9 min Für diese Folie: ~ 3min — — — — — — — The key insight
+is this – when we later quantum-melt these phases into spin liquids, spin-
+rotation symmetry is restored and ⟨Si⟩=0 everywhere. A conventional magnetic
+order parameter vanishes. So we need observables that are spin-rotation
+invariant - quantities that can remain nonzero even when there is no spin
+polarization. The two observables used throughout the paper are defined on a
+single plaquette of four spins. The first is the vector of nearest-neighbor
+scalar products: SEP=(S1⋅S2, S2⋅S3, S3⋅S4, S4⋅S1) This is invariant under global
+spin rotations. If all four components are equal, C4z is preserved. If they
+alternate — say (−1,1,−1,1)(-1,1,-1,1)(−1,1,−1,1) — then C4zC_{4z}C4z is broken.
+This is a nematic order parameter in the spin-rotation-invariant sector. The
+second is the scalar spin chirality: χEP=(S1⋅(S2×S3), S2⋅(S3×S4), S3⋅(S4×S1),
+S4⋅(S1×S2) This requires three spins to be noncoplana r — it vanishes for all
+coplanar phases. It is odd under time reversal, because T flips all spin
+directions and a triple product of three flipped vectors acquires a minus sign.
+These two observables together tell us everything we need: whether C4z is
+broken, whether T is broken, and — crucially — how they are broken. So lets walk
+through each phase and their observables together Classical Phase Diagram
+<number> First see the color legend at the top for the values of our
+observables. A1 is the collinear altermagnet — the anchor of our story. The
+spins on A are all pointing right, the spins on B all pointing left. The
+plaquette observable S_EP is uniform : −(1, 1, 1, 1). Every bond has the same
+antiferromagnetic scalar product. All four-fold rotational symmetry is intact.
+And the chirality is zero — all spins are coplanar, so the triple product S_i ·
+(S_j × S_k) vanishes identically. A1 is non-chiral. Classical Phase Diagram
+<number> A2 is the canted altermagnet. The spins on the A sublattice develop a
+small out-of-plane tilt — you can see the crossed circles in the texture —
+generating a net magnetization. The S_EP is still uniform, −(s_0, s_0, s_0,
+s_0), but s_0 < 1 now because the spins are no longer perfectly antiparallel.
+Chirality still zero — still coplanar. B1 is the first nematic phase. Look at
+the texture: horizontal bonds have antiparallel spins, but vertical bonds are
+nearly parallel. That anisotropy appears immediately in S_EP = (−1, 1, −1, 1) —
+alternating sign around the plaquette. The four-fold rotation C_4z is broken ;
+only a two-fold rotation survives. Still coplanar, chirality zero. B2 is the
+second nematic phase, related to B1 by a 45-degree rotation of the nematic axis.
+The breaking pattern is different: S_EP = (1, 1, −1, −1) — two positive bonds,
+two negative bonds, grouped in pairs rather than alternating. Different symmetry
+breaking, same physics class. A3 is the four-sublattice antiferromagnet. The
+spins rotate by 90 degrees between each bond-site — a spiral with wavevector
+(π/2, π/2). Because neighboring spins are orthogonal, S_i · S_j = 0 everywhere:
+S_EP = (0, 0, 0, 0). Chirality also zero — orthogonal spins in a plane give no
+triple product. Classical Phase Diagram <number> And now the key phase: C. The
+spins cant out of the plane — the dot-with-cross symbol means spin pointing into
+the page on the A sublattice, and the dot-with-arrow means pointing partially
+out on the B sublattice. The in-plane components still look roughly like A1, so
+S_EP = −(s_0′, s_0′, s_0′, s_0′) is still uniform — C is not nematic. Classical
+Phase Diagram <number> But this is what is different. The pink triangle: because
+the spins are now noncoplanar, the scalar chirality S_i · (S_j × S_k) is
+nonzero. And the pattern around the plaquette is staggered — the triangle on one
+side of the red bond has positive chirality, the triangle on the other side has
+negative chirality. The full vector is χ EP ∝ (−1, +1, −1, +1). This staggered
+pattern is preserved by the combined operation T C_4z — the altermagnetic
+symmetry — but broken by T and C_4z individually. This is why we call it an
+orbital altermagnet : the altermagnetic symmetry pattern lives in the chirality
+channel, not in the spin direction. This phase is the one we will quantum-melt.
+Everything that follows is the story of what survives. What is a QSL? No static
+magnetic order: ⟨Si⟩=0 even at T=0 Ground state is long‑range entangled : cannot
+be adiabatically deformed to any product state Supports fractionalized
+excitations (spin‑½ spinons) and emergent gauge fields <number> 2) 2) Savary and
+Balents, 2016 So what do we mean when we say we quantum-melt a phase into a
+quantum spin liquid? A QSL is not just a magnet without order. It is something
+more specific. First: no static magnetic order — ⟨S_i⟩ = 0 even at T = 0.
+Second: the ground state is long-range entangled — it cannot be adiabatically
+deformed into any product state. Third, and most importantly: it supports
+fractionalized excitations — spin-½ spinons that cannot be created by any single
+local operator — and emergent gauge fields. These are not the magnons from
+Minseong. Magnons are the Goldstone modes of broken order, also they have
+Spin-1. Spinons exist precisely because there is no broken spin order. You can
+visually think of a superposition of all possible singlet pairings on the
+lattice, calling it the Resonating Valence Bonds, where yo ucan see that no
+single bond dominates and that state has no spin order by construction. Also
+this shows that we cannot write this a product state over any finite region. Now
+the question is: how do we actually compute or construct a spin liquid? The
+answer is we split the spin into two bosons. Jonas 2026-05-23T15:20:14.621000000
+maybe: tabelle ersetzen und mit in notizen gespeicherter austauschen? Jonas
+2026-05-23T15:20:14.621000000 wtf hab ich damit gemeint? Jonas
+2026-05-23T15:29:27.608000000 PT:Wo Farbe, Wo Darstellung -> bessere bildliche
+Vorstellung für QSL ähnlich wie aus slide 2 Jonas 2026-05-23T15:29:27.608000000
+PT VORALLEM: und zwar das klassiche vor allem bevor ich diese slide bespreche;
+da ich in slide 2 kurz die skizze der qsl anspreche, sollte das hier (nach allem
+klassichen input) nochmal wiederholt werden; !spezieller augemerk (position noch
+offen, davor im klassichen oder hier) den Unterschied zwischen klassisch und
+magentischer ordnung unterscheiden The Schwinger boson representation and
+constraint The gauge redundancy dddd leaves all unchanged Decouple the
+Hamiltonian by introducing leads to free boson Hamiltonian From Schwinger Bosons
+to Spin Liquids <number> To access these phases mathematically, we use the
+Schwinger boson representation. Every spin is rewritten as two bosons, subject
+to a local constraint ni=2Sni​=2S. This decomposition is exact — it just embeds
+the spin Hilbert space in a larger one. The price is a local gauge redundancy,
+which the leaves all spin operators unchanged. We then decouple the quartic
+exchange interaction using a Hubbard–Stratonovich transformation, introducing
+two mean-field bond parameters as auxiliary fields. The first is the singlet
+pairing amplitude Aij which is the amplitude to create or destroy a spin-0
+singlet pair on bond ijij: one boson with spin ↑↑ on site ii and one with spin
+↓↓ on site jj, combined antisymmetrically so the total spin is zero. You can
+think of AijAij​ as the quantum amplitude for sites ii and jj to form a valence
+bond — it is Anderson's RVB singlet bond made explicit. The second is the boson
+hopping amplitude Bij which is the amplitude for a boson to hop from site jj to
+site ii while preserving its spin — the standard tight-binding hopping of band
+theory In short: Bijmoves a boson across a bond; Aij creates or destroys a
+singlet pair on that bond. Together they encode the full resonating valence bond
+structure of the spin liquid. The result is a free-boson mean-field Hamiltonian
+with a lagrange multiplier term mu enforcing the constraint on average. We then
+Fourier transform to momentum space, where the Hamiltonian takes a quadratic
+form. A Bogoliubov transformation diagonalizes it, yielding the quasiparticle
+band structure The pattern of {Aij,Bij} on the lattice — the Ansatz — is what
+defines the spin liquid. Jonas 2026-05-23T15:21:36.986000000 Probetalk (PT):
+Sketch Parton up/down -> constraint über alle bosonen veranschaulichen? Magnetic
+Order and Spin Liquids <number> Bosons condense at k → Lowest mode reaches E=0 ⇨
+Magnetic order Band stays gapped → → ⇨ Spin Liquid This connects the altermagnet
+with the concept of QSL! Now the central connection. The μ is a Lagrange
+multiplier that fixes the average boson density ⟨n_i⟩ = 2S. Tuning μ and the
+couplings changes the boson dispersion. If the lowest mode reaches E = 0, the
+bosons condense at some momentum k — and the condensate wavefunction
+reconstructs exactly the classical spin texture of A1, B1, C, and so on. That is
+magnetic order. If the band stays gapped — no condensation — the spins do not
+order. Instead, the Ansatz {A_ij, B_ij} describes a fractionalized, entangled
+state : a spin liquid. The same Ansatz that gives magnetic order upon
+condensation gives a neighboring QSL when kept gapped. This is the bridge
+between the altermagnet and the concept of a QSL. Invariant Gauge Group: U(1) or
+Z₂? <number> The mean-field Hamiltonian is invariant under → The IGG determines
+the physical nature of the spin liquid's excitations and its stability Not all
+spin liquids are the same. The type is determined by the Invariant Gauge Group,
+the IGG. The Schwinger boson construction always has a local U(1) gauge
+redundancy. But a specific Ansatz {A_ij, B_ij} will typically break most of that
+redundancy. The IGG is the subgroup of gauge transformations that leaves the
+Ansatz invariant. If a continuous U(1) subgroup survives, you have a U(1) spin
+liquid — but this is generically unstable in 2D. If only the discrete sign flip
+b_i → −b_i survives, you have a Z₂ spin liquid — a stable topological phase in
+2D. In practice: adding imaginary B_ij to an Ansatz almost always reduces the
+IGG from U(1) to Z₂, because imaginary bonds are sensitive to phase
+transformations that real bonds are not. Phase A1 has only real A_ij → IGG =
+U(1) Jonas 2026-05-17T23:16:12.293000000 Hier fehlt noch eine nice darstellung
+zwischen U(1) und Z2, einfaches rechenbeispiel mit Aij und Aij mit imaginären
+Bij wäre auch schon anschaulich 1 total reaction Jonas reacted with 👍 at
+2026-05-17 23:16 PM Jonas 2026-05-23T15:24:09.318000000 PT: Rechenbeispiel
+immernoch zu unanschaulich; da klassische phasen am anfang introduced werden ->
+Skizze der Ansätze Jonas 2026-05-23T15:24:09.318000000 Dann müssten aber die qsl
+ansätze, welche ja auf aij and bij basieren, vorher auch introduced werden The
+strategy: Choose a pattern of Aij,Bij on NN and NNN bonds (the Ansatz).
+Diagonalize the boson Hamiltonian, find the lowest mode. Tune μ so this mode
+condenses. Reconstruct the spin texture from the condensate; check if it matches
+A1, B1, C, etc. NN/NNN are enough- no unit cell enlargement needed Find the
+minimal Ansatz whose condensation recovers that phase → its gapped version is
+the neighboring QSL, inheriting the IGG! Matching phases to SB Ansätze <number>
+So how do we actually find the neighboring spin liquid for each classical phase?
+The strategy is to reverse-engineer the Ansatz. Step one: choose a pattern of
+A_ij and B_ij on nearest-neighbor and next-nearest-neighbor bonds. Step two:
+diagonalize the free-boson Hamiltonian via a Bogoliubov transformation. Step
+three: tune μ until the lowest mode condenses. Step four: reconstruct the spin
+texture from the condensate and check whether it matches the target phase — A1,
+B1, C, and so on. Nearest and next-nearest-neighbor bonds are sufficient for all
+six phases — no unit cell enlargement needed. The gapped version of that same
+Ansatz — where the bosons do not condense — is the neighboring QSL, and it
+inherits the same IGG and discrete symmetry as the parent ordered phase. This is
+the symmetry inheritance that makes the orbital altermagnet so special. Jonas
+2026-05-23T15:31:34.947000000 Make the strategy an actual flow chart with tikz
+Jonas 2026-05-23T15:31:34.947000000 PT: essentially hab ichs scheiße erklärt;
+Der Ansatz dieses Algorithmus wird so gewählt dass das natürlichste SL aus der
+klassischen Phase entwächst, somit wird auch das konzept des "Nachbar Liquids"
+klarer Phase Diagram Overview <number> Here is the full picture. Each panel in
+Figure 2 shows the Schwinger boson Ansatz for one classical phase. Blue arrows
+are real A_ij — singlet pairing. Black and gray arrows are real and imaginary
+B_ij — boson hopping. The colored ellipses show ⟨S_EP⟩ directly in the spin-
+liquid regime, before any condensation — confirming that the symmetry of the QSL
+matches the symmetry of the classical phase. Every classical phase has a
+neighboring spin liquid. But phase C is distinguished: it is the only Ansatz
+that requires imaginary B_ij and shows a chirality pattern in the spin-liquid
+regime. That is the one we care about. Phase Diagram Overview <number> Here is
+the full picture. Each panel in Figure 2 shows the Schwinger boson Ansatz for
+one classical phase. Blue arrows are real A_ij — singlet pairing. Black and gray
+arrows are real and imaginary B_ij — boson hopping. The colored ellipses show
+⟨S_EP⟩ directly in the spin-liquid regime, before any condensation — confirming
+that the symmetry of the QSL matches the symmetry of the classical phase. Every
+classical phase has a neighboring spin liquid. But phase C is distinguished: it
+is the only Ansatz that requires imaginary B_ij and shows a chirality pattern in
+the spin-liquid regime. That is the one we care about. orbital AM → noncoplanar
+order with staggered scalar chirality, zero net magnetization IGG = Z₂ (Z₂ spin
+liquid) Spin-rotation restored: ⟨Si⟩ = 0, but time-reversal still broken by the
+surviving altermagnetic chirality pattern Therefore: Z₂ topological order + AM
+scalar chirality → altermagnetic spin liquid The Altermagnetic Spin Liquid
+<number> This is the main result. The orbital altermagnet — phase C — has a
+neighboring Ansatz with IGG = Z₂, giving a Z₂ spin liquid. Now look at what
+happens in the spin-liquid regime, where the bosons are gapped and there is no
+condensation. Table II tells us: ⟨S_EP⟩ is isotropic, (1, 1, 1, 1) — C_4z is
+fully restored in the spin sector. But ⟨χ EP⟩ is staggered, (−1, +1, −1, +1) —
+time-reversal is still broken in the chirality sector, with exactly the T·C_4z
+pattern of an altermagnet. Let me say that again clearly: ⟨S_i⟩ = 0 everywhere —
+there is no spin order. But the altermagnetic chirality pattern survives in the
+fractionalized phase. The result is Z₂ topological order combined with a
+persistent altermagnetic scalar chirality — this is the altermagnetic spin
+liquid : a symmetry-enriched topological phase that did not exist before this
+paper. Jonas 2026-05-17T01:45:25.785000000 MOST IMPORTANT SLIDE Jonas
+2026-05-23T15:36:46.773000000 PT: scheiß tabelle Jonas
+2026-05-23T15:36:46.773000000 heavylifting sollte an diesem punkt wohl wieder
+die phasengrafik machen in der die observablen explizit ausgerechnet werden!
+Summary The checkerboard J1​-J2​-K model hosts, besides collinear and nematic
+phases, a noncoplanar orbital altermagnet with a staggered scalar chirality
+pattern invariant under TC4z. Using Schwinger bosons, each classical phase has a
+neighboring spin liquid; their SR‑invariant symmetry patterns are inherited via
+SEP​ and χEP​. The orbital altermagnet’s neighbor is an altermagnetic Z₂ spin
+liquid: no spin order, but a persistent altermagnetic chirality pattern <number>
+Let me close with three take-home points. First: the checkerboard J₁–J₂–K model
+hosts, alongside collinear and nematic phases, a noncoplanar orbital altermagnet
+— phase C — with a staggered scalar chirality pattern invariant under T·C_4z.
+Second: using Schwinger bosons, each classical phase has a neighboring spin
+liquid that inherits the same discrete symmetry via S_EP and χ_EP. Third: the
+orbital AM's neighbor is an altermagnetic Z₂ spin liquid — no spin order, but a
+persistent altermagnetic chirality pattern and Z₂ topological order. The paper
+lays the foundation to altermagnetic QSLs. ((The most direct experimental route
+would be STM or local susceptibility measurements sensitive to bond chirality —
+and the open question is whether candidate frustrated altermagnetic materials
+such as Mn₅Si₃ or CsCr₃Sb₅ can host this phase. Frustrated altermagnets are
+largely unexplored. This paper opens the map.)) Jonas
+2026-05-17T01:44:51.805000000 sources needed?? Summary of the classical magnetic
+phases <number> Neighbors and their SR observables <number> The Ansätze and
+Their Correlators Each panel: Schwinger‑boson Ansatz {Aij,Bij} for one classical
+phase (A1, A2, A3, B1, B2, C) Blue arrows = real Aij(singlet pairing);
+black/gray arrows = real/imaginary (boson hopping) Colored ellipses show ⟨SEP⟩
+in the spin‑liquid regime; same symmetry pattern as the corresponding classical
+phase <number> Now that we’ve seen how Schwinger bosons work and how
+condensation gives the classical orders, the figure on the left is really the
+heart of the ‘nearby spin liquids’ story. Each panel in this figure is one
+Schwinger‑boson Ansatz {Aij,Bij} corresponding to one of the classical phases
+A1, A2, A3, B1, B2, and C. The arrows on the bonds encode the mean‑field
+parameters: Blue arrows denote real Aij​, the singlet pairing amplitude between
+sites ii and jj. Black and gray arrows denote real or imaginary BijBij​, the
+boson hopping amplitudes. The presence of imaginary hoppings and second‑neighbor
+bonds is what reduces the gauge group from U(1) down to Z₂ in some cases.
+Superimposed on each Ansatz you see colored ellipses sitting on plaquettes.
+These represent the nearest‑neighbor spin products ⟨SEP⟩⟨SEP⟩ evaluated directly
+in the spin‑liquid regime, i.e. before any bosons are condensed. The key idea
+is: you can already read off the spatial symmetry of the QSL from these
+correlators: In A1, A2, and A3, the ellipses are all equivalent: ⟨SEP⟩⟨SEP⟩ is
+isotropic and non‑nematic, matching the fully symmetric collinear and orthogonal
+phases in the classical diagram. In B1 and B2, the ellipses clearly break C4C4​
+rotation down to a twofold symmetry — these are the nematic spin liquids sitting
+above the nematic orders B1 and B2. So the first message of this figure is: each
+spin liquid faithfully inherits the lattice symmetries of its parent classical
+phase, which you can see visually just from ⟨SEP⟩⟨SEP⟩. The second, more special
+message concerns phase C, the orbital altermagnet. In its panel, in addition to
+isotropic ⟨SEP⟩⟨SEP⟩, they also show a staggered scalar‑chirality pattern
+⟨χEP⟩⟨χEP​⟩ in the spin‑liquid state. This tells you that: Time‑reversal is
+broken in spin‑rotation–invariant observables. The altermagnetic pattern of
+scalar chirality survives even when spin‑rotation symmetry is restored and the
+bosons are not condensed. So phase C’s spin liquid is genuinely an altermagnetic
+spin liquid : it has Z₂ gauge structure (IGG = Z₂) and a staggered chirality
+pattern inherited from the orbital AM. To summarize what’s on the right of this
+slide: the reduced Table I lists, for each label, the IGG (U(1) or Z₂) and the
+symmetries of the spin liquid. A1, B1, and B2 give U(1) spin liquids; A2, A3,
+and C give Z₂ spin liquids. Putting Fig. 2 together with this table, you see
+precisely how the spin‑liquid Ansätze encode both symmetry and gauge structure,
+and how the orbital AM C leads to a Z₂ altermagnetic spin liquid with staggered
+chirality. → "Let me now focus on phase C, because it is the only Ansatz with a
+nonzero chirality pattern in the spin-liquid regime. This is the main result.
+Jonas 2026-05-17T01:45:18.772000000 second most important slide Jonas
+2026-05-23T15:35:45.932000000 SB Ansätze können erst nach der Kondensation mit
+klassichen verglichen werden Classical Spin Ansatz Q: ordering wavevector φ:
+phase shift between sublattices ηA/B​: out-of-plane canting Grid search over
+(J2,K) minimize the classical energy of these params through gradient-descent
+algorithm <number> How are these phases actually found? Every spin texture is
+parameterized as a general spiral : ordering wavevector Q sets the period and
+direction, φ is the phase shift between the two sublattices, and η_{A/B} is the
+out-of-plane canting — zero for all coplanar phases, nonzero only for phase C.
+For each coupling point (J₂, K), a grid search followed by gradient descent
+finds the global energy minimum. Phase A1 is the anchor: Q = (0,0) (describe Q),
+φ = π, η = 0 → antiparallel spins, collinear AM. Its SR-invariant observables:
+S_EP all equal — no nematicity — and χ EP = 0 — no chirality. All magnetic
+point-group symmetries preserved modulo spin rotation. → "A1 is the base case:
+fully symmetric AM. As frustration increases, two nematic phases appear — B1 and
+B2. They break C₄z in spin-rotation-invariant observables, but crucially, their
+chirality χ_EP stays zero." Phase C: The Orbital Altermagnet The key pattern:
+χEP∝(−1,1,−1,1) Symmetry point: χEP​ is odd under T and under C4z separately.
+The pattern (−1,1,−1,1) is invariant under TC4z​ →defining symmetry of an
+altermagnet ‘ orbital’ because, in an electron system, scalar spin chirality on
+a plaquette induces circulating orbital currents with the same staggered T⋅C4z
+pattern <number> Phase C is the new phase this paper introduces. When
+frustration is strong enough, it becomes energetically favorable to cant the
+spins out of the plane: ηA > 0, ηB < 0, with ηA + ηB = 0. This generates nonzero
+scalar spin chirality on every triangle. The pattern is staggered : χ_EP ∝ (−1,
+1, −1, 1). Now the symmetry argument. χ_EP is odd under T alone — flipping time
+reversal reverses all chiralities. χ_EP is also odd under C₄z alone — rotating
+90° maps (−1,1,−1,1) to (1,−1,1,−1). But the combined T·C₄z maps it back to
+itself: invariant under TC₄z That is precisely the defining symmetry of an
+altermagnet — but now in the chirality channel. The phase transition from A1 to
+C is second order : χ_EP turns on continuously, as shown in right left plot. Why
+" orbital "? In an electron system, scalar chirality on a plaquette corresponds
+to circulating orbital currents. These currents are locally nonzero but vanish
+globally — not through translation symmetry, but through C₄z·T. → "We now have
+the classical phases and we know which one has the AM symmetry in its chirality.
+The next step is to connect each classical phase to a Schwinger-boson Ansatz —
+and then ask what lives on the QSL side of that connection." Jonas
+2026-05-23T15:40:11.419000000 wie kann ich diesen phasenübergang zweiter ordnung
+noch erwähnen? Experimental Outlook <number> Jonas 2026-05-17T13:41:12.807000000
+only very shortly do this Jonas 2026-05-17T13:41:12.807000000 nur als optionale
+vorletzte slide
+

@@ -1,0 +1,519 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Sobral2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=86bdc974a89cec60bbe2896bd3644f1f}{%
+           family={Sobral},
+           familyi={S\bibinitperiod},
+           given={João\bibnamedelima Augusto},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=90c2341d8bd1f8d5461c314540f86ec7}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Subrata},
+           giveni={S\bibinitperiod}}}%
+        {{hash=411af0a77e0434f23c599d789482920a}{%
+           family={Scheurer},
+           familyi={S\bibinitperiod},
+           given={Mathias\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \strng{fullhash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \strng{bibnamehash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \strng{authorbibnamehash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \strng{authornamehash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \strng{authorfullhash}{9a2c6d8db8f14b1dca590ec368cda76d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Research}
+      \field{title}{Fractionalized altermagnets: From neighboring and altermagnetic spin liquids to spin-symmetric band splitting}
+      \field{volume}{7}
+      \field{year}{2025}
+      \field{pages}{023152}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevResearch.7.023152
+      \endverb
+    \endentry
+    \entry{Yuan2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=072e6e9d6fd94edf0360bc96ad483f37}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={L.-D.},
+           giveni={L\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ba0789fb18e9185be29de2197e1974ee}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={J.-W.},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=d278d3d49a56550b24a6f23789697e7b}{%
+           family={Rashba},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi I.},
+           giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=8933d2db16bffd3a4e4603af12d043d7}{%
+           family={Zunger},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a098e41e21528625334bd930b7e78ef1}
+      \strng{fullhash}{d01471ce07451c423315115c6a047db5}
+      \strng{bibnamehash}{a098e41e21528625334bd930b7e78ef1}
+      \strng{authorbibnamehash}{a098e41e21528625334bd930b7e78ef1}
+      \strng{authornamehash}{a098e41e21528625334bd930b7e78ef1}
+      \strng{authorfullhash}{d01471ce07451c423315115c6a047db5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{title}{Giant momentum-dependent spin splitting in centrosymmetric low-{Z} antiferromagnets}
+      \field{volume}{102}
+      \field{year}{2020}
+      \field{pages}{014422}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.102.014422
+      \endverb
+    \endentry
+    \entry{Smejkal2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=34a0754b56ea7204930f5bc815568738}{%
+           family={Šmejkal},
+           familyi={Š\bibinitperiod},
+           given={Libor},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dde1225e1075cbb4b568ea887ddd52a2}{%
+           family={Sinova},
+           familyi={S\bibinitperiod},
+           given={Jairo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=49a7ec79a4462faf61c0dc714911291d}{%
+           family={Jungwirth},
+           familyi={J\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{fullhash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{bibnamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authorbibnamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authornamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authorfullhash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review X}
+      \field{title}{Beyond conventional ferromagnetism and antiferromagnetism: A phase with nonrelativistic spin and crystal rotation symmetry}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{031042}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.12.031042
+      \endverb
+    \endentry
+    \entry{Smejkal2022a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=34a0754b56ea7204930f5bc815568738}{%
+           family={Šmejkal},
+           familyi={Š\bibinitperiod},
+           given={Libor},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dde1225e1075cbb4b568ea887ddd52a2}{%
+           family={Sinova},
+           familyi={S\bibinitperiod},
+           given={Jairo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=49a7ec79a4462faf61c0dc714911291d}{%
+           family={Jungwirth},
+           familyi={J\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{fullhash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{bibnamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authorbibnamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authornamehash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \strng{authorfullhash}{59bf8ba4ad10ab15e0afb16d8bdae297}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review X}
+      \field{title}{Emerging research landscape of altermagnetism}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{040501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.12.040501
+      \endverb
+    \endentry
+    \entry{Savary2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d6c86bdf43be4198c9295ae01e07f860}{%
+           family={Savary},
+           familyi={S\bibinitperiod},
+           given={Lucile},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b143e210ba1996c98376327fb95b64e3}{%
+           family={Balents},
+           familyi={B\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \strng{fullhash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \strng{bibnamehash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \strng{authorbibnamehash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \strng{authornamehash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \strng{authorfullhash}{1d8b4ff5e8511af9f4cffb26de3c6a3f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reports on Progress in Physics}
+      \field{title}{Quantum spin liquids: a review}
+      \field{volume}{80}
+      \field{year}{2017}
+      \field{pages}{016502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0034-4885/80/1/016502
+      \endverb
+    \endentry
+    \entry{Biniskos2022}{article}{}
+      \name{author}{10}{}{%
+        {{hash=8fc5de52f930375227bfc4b1ab2f2a03}{%
+           family={Biniskos},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f6840d161f6ebba76e993092ea882bf5}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c6795ca342abdd3208e4e35cc6a1602f}{%
+           family={Schmalzl},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7f369f7908de9bbf84864e1cd345587a}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=71d1cc787a347178d7568032a67d43f6}{%
+           family={Santos\bibnamedelima Dias},
+           familyi={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=611388f8d8d98247b8dbe9996169a212}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a70c8c7f5fda9518bb4ebcb7224c3692}{%
+           family={Marzari},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a45310ad1da45307c26b13e6154eddd2}{%
+           family={Blügel},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=68da37a1c2caa93f15b84105e5524b9b}{%
+           family={Lounis},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=17e2030d06bfcc27357e0ff3773cafca}{%
+           family={Brückel},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f60cbeecc5b3d6fb7ce80e736a0a4924}
+      \strng{fullhash}{158f5084882f302f67031c659b151ca2}
+      \strng{bibnamehash}{f60cbeecc5b3d6fb7ce80e736a0a4924}
+      \strng{authorbibnamehash}{f60cbeecc5b3d6fb7ce80e736a0a4924}
+      \strng{authornamehash}{f60cbeecc5b3d6fb7ce80e736a0a4924}
+      \strng{authorfullhash}{158f5084882f302f67031c659b151ca2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{title}{Complex magnetic structure and spin waves of the noncollinear antiferromagnet {Mn$_5$Si$_3$}}
+      \field{volume}{105}
+      \field{year}{2022}
+      \field{pages}{104404}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.105.104404
+      \endverb
+    \endentry
+    \entry{Surgers2024}{article}{}
+      \name{author}{9}{}{%
+        {{hash=e814dabcb0161f089df1df19833b3f96}{%
+           family={Sürgers},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c63d4b532915c2df1ff0581efa885d8c}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=22bd0eca6b5ceb7bb87b97e76e201f36}{%
+           family={Campos},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3c428035e05d28e5a83e6963c2801668}{%
+           family={Hellenes},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=da7369e9de3aeef1bdadf269f2fedf35}{%
+           family={Šmejkal},
+           familyi={Š\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=76c15d6c7f35d72d8456d2fdcd1bd9b2}{%
+           family={Sinova},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d739930b39c88e8c4dff6f39bc0b104}{%
+           family={Merz},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9018a5f760a7d0513c792f01bd7bc621}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3556fb776a6f6e8cbce392d8018642ec}{%
+           family={Wernsdorfer},
+           familyi={W\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1158d44e7bdfc5935f074fdc897d88e4}
+      \strng{fullhash}{d266f62b7e3f4f0591e8c59cfce9427b}
+      \strng{bibnamehash}{1158d44e7bdfc5935f074fdc897d88e4}
+      \strng{authorbibnamehash}{1158d44e7bdfc5935f074fdc897d88e4}
+      \strng{authornamehash}{1158d44e7bdfc5935f074fdc897d88e4}
+      \strng{authorfullhash}{d266f62b7e3f4f0591e8c59cfce9427b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications Materials}
+      \field{title}{Anomalous {Nernst} effect in the noncollinear antiferromagnet {Mn$_5$Si$_3$}}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{176}
+      \range{pages}{1}
+    \endentry
+    \entry{Xu2025}{article}{}
+      \name{author}{8}{}{%
+        {{hash=9e3f5382bd82f58980e0e9c0368f63fc}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d88ef0c0ed31e6984ffe52032bd04a62}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=14cfa9b1790871256d5a36056ce799ef}{%
+           family={Zhi},
+           familyi={Z\bibinitperiod},
+           given={G.-X.},
+           giveni={G\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=a050216dc8f0dd894662a0cb29dfc36c}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=76bc014123b27ebdccb33f8f734e03f6}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=34b9df67d088662718e0026a5d05ae67}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=89c59defc8aef04d1e9e526098f3b357}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={H.-Q.},
+           giveni={H\bibinithyphendelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccc5662d253a3405c597903dc310f4a8}
+      \strng{fullhash}{cc13d691d783452ff32b6ca4075b6f9f}
+      \strng{bibnamehash}{ccc5662d253a3405c597903dc310f4a8}
+      \strng{authorbibnamehash}{ccc5662d253a3405c597903dc310f4a8}
+      \strng{authornamehash}{ccc5662d253a3405c597903dc310f4a8}
+      \strng{authorfullhash}{cc13d691d783452ff32b6ca4075b6f9f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Altermagnetic ground state in distorted kagome metal {CsCr$_3$Sb$_5$}}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{3114}
+      \range{pages}{1}
+    \endentry
+    \entry{Anderson1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=847b0698d138c139548ed0a7422a6a16}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{fullhash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{bibnamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authorbibnamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authornamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authorfullhash}{847b0698d138c139548ed0a7422a6a16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Research Bulletin}
+      \field{title}{Resonating valence bonds: A new kind of insulator?}
+      \field{volume}{8}
+      \field{year}{1973}
+      \field{pages}{153\bibrangedash 160}
+      \range{pages}{8}
+    \endentry
+    \entry{Auerbach1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6512d9cd36f4ab090012cf8e6976468b}{%
+           family={Auerbach},
+           familyi={A\bibinitperiod},
+           given={Assa},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6512d9cd36f4ab090012cf8e6976468b}
+      \strng{fullhash}{6512d9cd36f4ab090012cf8e6976468b}
+      \strng{bibnamehash}{6512d9cd36f4ab090012cf8e6976468b}
+      \strng{authorbibnamehash}{6512d9cd36f4ab090012cf8e6976468b}
+      \strng{authornamehash}{6512d9cd36f4ab090012cf8e6976468b}
+      \strng{authorfullhash}{6512d9cd36f4ab090012cf8e6976468b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interacting Electrons and Quantum Magnetism}
+      \field{year}{1994}
+    \endentry
+    \entry{Jahin2025}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8840120e089f3e6eff35b81db8cab672}{%
+           family={Jahin},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e4e0d77dc7d1b0e756ab851cdcb8721c}{%
+           family={Halász},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=11a9033d89b991d67f474ac7a12b4578}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={S.-Z.},
+           giveni={S\bibinithyphendelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b7b712394f218b738252ab90e10c0a5}
+      \strng{fullhash}{3703c79f39a0899b4f83202a130e25f0}
+      \strng{bibnamehash}{2b7b712394f218b738252ab90e10c0a5}
+      \strng{authorbibnamehash}{2b7b712394f218b738252ab90e10c0a5}
+      \strng{authornamehash}{2b7b712394f218b738252ab90e10c0a5}
+      \strng{authorfullhash}{3703c79f39a0899b4f83202a130e25f0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Quasiparticle interference in {Kitaev} quantum spin liquids}
+      \field{volume}{134}
+      \field{year}{2025}
+      \field{pages}{126501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.134.126501
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

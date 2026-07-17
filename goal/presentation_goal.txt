@@ -1,0 +1,5 @@
+Introduce the basic concept of a spin liquid (a phase of a spin model, characterized by the loss
+of magnetic order due to quantum fluctuations, and fractionalized excitations) [1]. Explain how
+spin liquids can be described by parton theories, where spin operators are fractionalized into
+bosons or fermions, with additional constraints. Discuss, based on [2], what kind of spin liquid
+phases are expected to emerge out of or in the vicinity of a square-lattice altermagnet
