@@ -2384,22 +2384,23 @@
     <bcf:citekey order="18" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="19" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Savary2017</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Anderson1973</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Savary2017</bcf:citekey>
     <bcf:citekey order="22" intorder="1">Savary2017</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Sobral2025</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Auerbach1994</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Anderson1973</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Savary2017</bcf:citekey>
     <bcf:citekey order="25" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="26" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="28" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Sobral2025</bcf:citekey>
     <bcf:citekey order="30" intorder="1">Sobral2025</bcf:citekey>
-    <bcf:citekey order="30" intorder="2">Jahin2025</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Jahin2025</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Biniskos2022</bcf:citekey>
-    <bcf:citekey order="32" intorder="2">Surgers2024</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Xu2025</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Sobral2025</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Sobral2025</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">Jahin2025</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Jahin2025</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Biniskos2022</bcf:citekey>
+    <bcf:citekey order="33" intorder="2">Surgers2024</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Xu2025</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Sobral2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

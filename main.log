@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.24)  17 JUL 2026 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.24)  17 JUL 2026 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,49 +746,50 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figures/checkerboard_model.png, id=97, 1226.5825pt x 1154.3125pt>
 File: figures/checkerboard_model.png Graphic file (type png)
 <use figures/checkerboard_model.png>
-Package pdftex.def Info: figures/checkerboard_model.png  used on input line 174.
+Package pdftex.def Info: figures/checkerboard_model.png  used on input line 173.
 (pdftex.def)             Requested size: 150.91185pt x 142.01659pt.
  [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/checkerboard_model.png>]
 <figures/classical_phase_diagram.png, id=124, 1425.325pt x 1186.4325pt>
 File: figures/classical_phase_diagram.png Graphic file (type png)
 <use figures/classical_phase_diagram.png>
-Package pdftex.def Info: figures/classical_phase_diagram.png  used on input line 231.
+Package pdftex.def Info: figures/classical_phase_diagram.png  used on input line 230.
 (pdftex.def)             Requested size: 177.54256pt x 147.77869pt.
  [3 <./figures/classical_phase_diagram.png>]
 <figures/classical_spin_textures.png, id=135, 1970.36125pt x 1104.125pt>
 File: figures/classical_spin_textures.png Graphic file (type png)
 <use figures/classical_spin_textures.png>
-Package pdftex.def Info: figures/classical_spin_textures.png  used on input line 281.
+Package pdftex.def Info: figures/classical_spin_textures.png  used on input line 280.
 (pdftex.def)             Requested size: 355.0919pt x 198.96979pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 308.
+(Font)              <10> on input line 320.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 308.
+(Font)              <7> on input line 320.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 308.
-
-Overfull \hbox (8.41405pt too wide) in paragraph at lines 308--320
- [][] 
- []
-
-[4 <./figures/classical_spin_textures.png>]
-<figures/classical_transitions_combined.png, id=154, 625.3764pt x 246.4407pt>
+(Font)              <5> on input line 320.
+ [4 <./figures/classical_spin_textures.png>]
+<figures/classical_transitions_combined.png, id=155, 625.3764pt x 246.4407pt>
 File: figures/classical_transitions_combined.png Graphic file (type png)
 <use figures/classical_transitions_combined.png>
-Package pdftex.def Info: figures/classical_transitions_combined.png  used on input line 367.
+Package pdftex.def Info: figures/classical_transitions_combined.png  used on input line 369.
 (pdftex.def)             Requested size: 355.0919pt x 139.93492pt.
- [5] [6 <./figures/classical_transitions_combined.png>] [7]
-<figures/schwinger_boson_ansätze.png, id=199, 1832.8475pt x 891.33pt>
+ [5]
+<figures/anderson_rvb.png, id=170, 2125.9425pt x 428.60126pt>
+File: figures/anderson_rvb.png Graphic file (type png)
+<use figures/anderson_rvb.png>
+Package pdftex.def Info: figures/anderson_rvb.png  used on input line 409.
+(pdftex.def)             Requested size: 355.0919pt x 71.58595pt.
+ [6 <./figures/classical_transitions_combined.png> <./figures/anderson_rvb.png>] [7]
+<figures/schwinger_boson_ansätze.png, id=203, 1832.8475pt x 891.33pt>
 File: figures/schwinger_boson_ansätze.png Graphic file (type png)
 <use figures/schwinger_boson_ansätze.png>
-Package pdftex.def Info: figures/schwinger_boson_ansätze.png  used on input line 525.
+Package pdftex.def Info: figures/schwinger_boson_ansätze.png  used on input line 537.
 (pdftex.def)             Requested size: 399.47415pt x 194.27072pt.
- [8 <./figures/schwinger_boson_ansätze.png>] [9]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 606.
+ [8] [9 <./figures/schwinger_boson_ansätze.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 618.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (5.92694pt too wide) in paragraph at lines 607--607
+Overfull \hbox (5.92694pt too wide) in paragraph at lines 619--619
 \T1/lmr/m/n/10.95 ting''. In: \T1/lmr/m/it/10.95 Phys-i-cal Re-view Re-search \T1/lmr/m/n/10.95 7 (2025), p. 023152. \T1/lmr/m/sc/10.95 doi\T1/lmr/m/n/10.95 : [][]$\T1/lmtt/m/n/10.95 10 . 1103 / PhysRevResearch .
  []
 
@@ -804,18 +805,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24025 strings out of 474222
- 475346 string characters out of 5748733
- 1941975 words of memory out of 5000000
- 45963 multiletter control sequences out of 15000+600000
+ 24032 strings out of 474222
+ 475520 string characters out of 5748733
+ 1942975 words of memory out of 5000000
+ 45970 multiletter control sequences out of 15000+600000
  639375 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,81p,736b,1413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,81p,736b,1413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 2135999 bytes).
+Output written on main.pdf (10 pages, 2621317 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
+ 357 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
  54 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

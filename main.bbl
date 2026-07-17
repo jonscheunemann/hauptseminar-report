@@ -443,33 +443,6 @@
       \field{pages}{153\bibrangedash 160}
       \range{pages}{8}
     \endentry
-    \entry{Auerbach1994}{book}{}
-      \name{author}{1}{}{%
-        {{hash=6512d9cd36f4ab090012cf8e6976468b}{%
-           family={Auerbach},
-           familyi={A\bibinitperiod},
-           given={Assa},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{6512d9cd36f4ab090012cf8e6976468b}
-      \strng{fullhash}{6512d9cd36f4ab090012cf8e6976468b}
-      \strng{bibnamehash}{6512d9cd36f4ab090012cf8e6976468b}
-      \strng{authorbibnamehash}{6512d9cd36f4ab090012cf8e6976468b}
-      \strng{authornamehash}{6512d9cd36f4ab090012cf8e6976468b}
-      \strng{authorfullhash}{6512d9cd36f4ab090012cf8e6976468b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Interacting Electrons and Quantum Magnetism}
-      \field{year}{1994}
-    \endentry
     \entry{Jahin2025}{article}{}
       \name{author}{4}{}{%
         {{hash=8840120e089f3e6eff35b81db8cab672}{%

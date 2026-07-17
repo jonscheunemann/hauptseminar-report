@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1784309910.46387 "main.bcf" "main.bbl" "main" 1784309914.10682 0
-  "main.bcf" 1784309914.32995 109461 39cb25ddc17d2441559f7c5cf29f4b25 "pdflatex"
+["biber main"] 1784324046.40565 "main.bcf" "main.bbl" "main" 1784324049.86549 0
+  "main.bcf" 1784324050.09799 109525 bb3d6aec66ac95efeda3e75e48c6c255 "pdflatex"
   "references.bib" 1784132407.61523 3568 9e03920f0d2db9a9594785e187e6f872 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1784309912.38075 "/tikhome/jscheunemann/hauptseminar-report/main.tex" "main.pdf" "main" 1784309914.10758 0
+["pdflatex"] 1784324048.38834 "/tikhome/jscheunemann/hauptseminar-report/main.tex" "main.pdf" "main" 1784324049.86627 0
   "/etc/texmf/web2c/texmf.cnf" 1742817578.31555 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/tikhome/jscheunemann/hauptseminar-report/main.tex" 1784309909.08686 32291 eba2b9c5ca636ee61ef85813742e82e0 ""
+  "/tikhome/jscheunemann/hauptseminar-report/main.tex" 1784324045.06385 32633 f9ee8f0a1f17845bc1793ec211509b8d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -169,16 +169,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742818007.03125 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742818070 8213294 df2b4c90e81f067358a58638ee9d1585 ""
+  "figures/anderson_rvb.png" 1784311886.69664 390768 13679de4479f3b23f89b111c8db4badd ""
   "figures/checkerboard_model.png" 1784300420.50255 79949 5d42b094d5a8a1ea0e54b7915d8ffb7b ""
   "figures/classical_phase_diagram.png" 1784308360.08402 101896 70639b0ca6458d7582d7d43e36c355ea ""
   "figures/classical_spin_textures.png" 1784300852.34537 140919 fd3b4dafc6213dc14140e2bea814f4ae ""
-  "figures/classical_transitions_combined.png" 1784305767.70103 1014363 4a8bb67350a655104508acd41db5f8fb ""
+  "figures/classical_transitions_combined.png" 1784316121.8534 1011736 12e6feb45ef2fc5079b4335491cdf61e ""
   "figures/schwinger_boson_ansätze.png" 1784307879.00418 286001 4fb1cdd33b7cdce9e1177dab65883e34 ""
-  "main.aux" 1784309914.32496 13554 338712421c0c4e22937ba646324c22ba "pdflatex"
-  "main.bbl" 1784309911.18101 20023 38429c4c001c4479d78b7cf08ab860e3 "biber main"
-  "main.out" 1784309914.32795 2734 431f7e223d24195204d86ec835054cee "pdflatex"
-  "main.run.xml" 1784309914.33197 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
-  "main.tex" 1784309909.08686 32291 eba2b9c5ca636ee61ef85813742e82e0 ""
+  "main.aux" 1784324050.09498 14188 1c13c4bf69e73ed5674a3c6eb7af36a3 "pdflatex"
+  "main.bbl" 1784324047.145 19028 a19125ae6b706532c1798db2280119b4 "biber main"
+  "main.out" 1784324050.09698 2734 431f7e223d24195204d86ec835054cee "pdflatex"
+  "main.run.xml" 1784324050.09999 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.tex" 1784324045.06385 32633 f9ee8f0a1f17845bc1793ec211509b8d ""
   (generated)
   "main.aux"
   "main.bcf"
